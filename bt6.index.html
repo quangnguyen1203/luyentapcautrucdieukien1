@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let doanhthu = parseInt(prompt("Nhập doanh thu: "));
+        let hoahong
+        if (doanhthu >= 50){
+            hoahong = doanhthu*0.02
+            alert(hoahong)
+        } else if (doanhthu >=30){
+            hoahong = doanhthu*0.015
+            alert(hoahong)
+        } else if ( doanhthu >= 20){
+            hoahong = doanhthu*0.01
+            alert(hoahong)
+        } else if (doanhthu >= 10){
+            hoahong = doanhthu*0.005
+            alert(hoahong)
+        } else {
+            alert("Không có hoa hồng")
+        }
+    </script>
+</body>
+</html>

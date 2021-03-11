@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let KT = parseFloat(prompt("Nhập điểm kiểm tra: "));
+        let GK = parseFloat(prompt("Nhập điểm thi giữa kì: "));
+        let CK = parseFloat(prompt("Nhập điểm thi cuối kì: "));
+        let ĐTB = (KT + GK*2 + CK*3)/6
+        if (ĐTB >= 8){
+            alert("Học sinh giỏi")
+        } else if (ĐTB >= 6.5){
+            alert("Học sinh khá")
+        } else if (ĐTB >= 5){
+            alert("Học sinh trung bình")
+        } else {
+            alert("Học sinh yếu")
+        } 
+    </script>
+</body>
+</html>
